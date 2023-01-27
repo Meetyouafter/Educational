@@ -14,5 +14,13 @@
         "react"
     ],
     "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "linebreak-style": "off",
+        "react/require-default-props": "off",
+        "react/function-component-definition": [2, {
+          "namedComponents": "arrow-function"
+        }],
+        "arrow-parens": ["error", "as-needed"],
+        "no-param-reassign": 0
     }
 }

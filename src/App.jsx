@@ -1,14 +1,12 @@
 import React from 'react';
-import Hello from './Hello';
+import Counter from './Counter.jsx';
 import './style.scss';
 
-function App() {
-  return (
-    <>
-      <h1 className='title'>Hello from React!</h1>
-      <Hello />
-    </>
-  );
-}
+const App = () => (
+  <>
+    <h1 className="title">Hello from React!</h1>
+    <Counter />
+  </>
+);
 
 export default App;
